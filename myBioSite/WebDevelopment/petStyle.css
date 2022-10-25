@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*if you want a different look in each header on the different pages, then use an ID rather than just header*/
+#homeMasthead{
+	background-color: #001B72;
+	height:80vh;
+}
