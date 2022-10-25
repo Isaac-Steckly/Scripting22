@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Libre+Baskerville&family=Passions+Conflict&family=Roboto:ital@1&display=swap');
+h1, h2{
+	font-family: 'Cormorant Garamond', serif;
+}
+
+html{
+	font-family: 'Libre Baskerville', serif;
+}
+
+header{
+	background-color: #3F3F3F;
+	text-align: center;
+	color:#6F6F6F;
+	margin: auto;
+	overflow:hidden;
+}
+section{
+	background-color: #ADADAD;
+	max-width:1200px;
+	margin-left: auto;
+	padding: 30px;
+	overflow:hidden;
+}
+.alternate{
+	background-color: #999999;
+	margin: inherit;
+}
+
+section img{
+	padding-top: 80px;
+	padding-right: 75px;
+	margin-right: 10px auto;
+}
+
+footer{
+	background-color: #3F3F3F;
+	text-align: center;
+	color:#6F6F6F;
+	margin: auto;
+	overflow:hidden;
+}
+
+nav {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3F3F3F;
+}
+
+nav a:link {
+  display: block;
+  color: #6F6F6F;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+	transition-duration: 0.6s;
+}
+
+nav a:hover{
+	background-color: #70C0C1;
+}
+
+.stay{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+
+button{
+	background-color:#6F6F6F;
+	padding: 16px 32px;
+	font-size:20px;
+	/*change to a pointer finger*/
+	cursor:pointer;
+	/*default border - same color as background*/
+	border:2px solid #000000;
+	/*add a transition to fade between the states*/
+	transition-duration: 0.4s;
+}
+
+button:hover{
+	background-color: #70C0C1;
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
