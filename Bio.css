@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+#Top{
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color:#A74243;
+		
+}
+
+section{
+	background-color: #007CAB;
+	border:4px solid #3F3F3F;
+	max-width: 1200px;
+	padding:30px;
+	margin-left: 250px;
+	overflow:hidden;
+}
+.alternate{
+	margin: 10px 0px 10px 400px;
+}
+
+.background{
+	background-image: url("BioImages/Wallpaper Isaac.png");
+	border: none;
+	max-width: none;
+	margin: auto;
+	background-position: center;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
