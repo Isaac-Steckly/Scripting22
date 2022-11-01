@@ -3,7 +3,7 @@
 
 /*if you want a different look in each header on the different pages, then use an ID rather than just header*/
 #homeMasthead{
-	background-image: url("../../Other/webDevelopment/images/backgrounds/Convocation-mobile.jpg");
+	background-image: url("images/backgrounds/Convocation-mobile.jpg");
 	background-size: cover;
 	background-position: center;
 }
@@ -61,7 +61,7 @@ a:hover{
 @media only screen and (min-width: 768px) {
 
 	#homeMasthead{
-	background-image: url("../../Other/webDevelopment/images/backgrounds/Convocation-Large.jpg");
+	background-image: url("images/backgrounds/Convocation-Large.jpg");
 }
 
 	.display-1{
