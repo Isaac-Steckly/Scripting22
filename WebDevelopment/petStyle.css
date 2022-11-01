@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*if you want a different look in each header on the different pages, then use an ID rather than just header*/
+#homeMasthead{
+	background-image: url("../../Other/webDevelopment/images/backgrounds/Convocation-mobile.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#serviceMasthead{
+	background-image: url("../../Other/webDevelopment/images/backgrounds/pexels-helena-lopes-2253275.jpg");
+	background-size: cover;
+	background-position: right;
+}
+
+/*set the default font size - MOBILE FIRST*/
+/*overrideing a BS4 class with your own style*/
+.display-1{
+	font-size: 20pt;
+}
+
+h2{
+	color: #001B72;
+}
+
+.bg-dark{
+	background-color: #4B351F !important;
+}
+
+
+/*class to define the height of any element it is added to*/
+.height80{
+	height:80vh;
+}
+
+
+footer{
+	background-color: #001B72;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: white;
+}
+
+a:link, a:visited{
+	color: #70C0C1;
+}
+a:hover{
+	color: #518EBB;
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+	
+	.display-1{
+	font-size: 60pt;
+}
+}
+
+/* Medium devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) {
+
+	#homeMasthead{
+	background-image: url("../../Other/webDevelopment/images/backgrounds/Convocation-Large.jpg");
+}
+
+	.display-1{
+		font-size: 80pt;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
