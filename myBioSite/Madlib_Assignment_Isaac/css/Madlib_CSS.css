@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image: url("../Images/Background.jpg")
+}
+
+.bg-warning{
+	border: #6F6100;
+	border-style:solid;
+}
+
+h1{
+	font-size: 100px;
+}
+
+#output{
+	padding: auto;
+	margin: auto;
+}
