@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>index</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<link href="avatar.css" rel="stylesheet" type="text/css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script> 
+</head>
+
+<body class="background">
+	
+<header class="text-center py-5">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-sm-6 mx-auto py-5">
+                    <h1>Isaac's Avatar Creator</h1>
+                </div>
+            </div>
+        </div>
+
+    </header>
+	
+	 <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>Head Parts</h3>
+					<section id="Head Colour">
+						<button class="section-toggler" type="button" data-toggle="collapse" data-target="#collapsibleSection">
+    						<span class="section-toggler-icon">Head Colour</span>
+ 						</button>
+						<div class="collapse section-collapse" id="collapsibleSection">
+      						<ul class="navbar-nav">
+        						<li class="nav-item">
+        							<button><img onClick="setHead('Head1.png');" src="images/Head1TH.png" alt="headSelection"></button>
+									<button><img onClick="setHead('Head2.png');" src="images/Head2TH.png" alt="headSelection"></button>
+									<button><img onClick="setHead('Head3.png');" src="images/Head3TH.png" alt="headSelection"></button>
+									<button><img onClick="setHead('Head4.png');" src="images/Head4TH.png" alt="headSelection"></button>
+									<button><img onClick="setHead('Head5.png');" src="images/Head5TH.png" alt="headSelection"></button>
+        						</li>
+     						</ul>
+    					</div>
+					</section>
+						
+					<section id="Eye Colour">
+						<button class="section-toggler" type="button" data-toggle="collapse" data-target="#collapsibleSection2">
+    						<span class="section-toggler-icon">Eye Colour</span>
+ 						</button>
+						<div class="collapse section-collapse" id="collapsibleSection2">
+      						<ul class="navbar-nav">
+        						<li class="nav-item">
+        							<button><img onClick="setEyes('eyes1.png');" src="images/eyes1TH.png" alt="eyesSelection"><br></button>
+									<button><img onClick="setEyes('eyes1_5.png');" src="images/eyes1_5TH.png" alt="eyesSelection"><br></button>
+									<button><img onClick="setEyes('eyes2.png');" src="images/eyes2TH.png" alt="eyesSelection"><br></button>
+									<button><img onClick="setEyes('eyes2_5.png');" src="images/eyes2_5TH.png" alt="eyesSelection"><br></button>
+									<button><img onClick="setEyes('eyes3.png');" src="images/eyes3TH.png" alt="eyesSelection"><br></button>
+									<button><img onClick="setEyes('eyes3_5.png');" src="images/eyes3_5TH.png" alt="eyesSelection"><br></button>
+        						</li>
+     						</ul>
+    					</div>
+					</section>
+					
+					<section id="Eyebrow/Eyebrow Colour">
+						<button class="section-toggler" type="button" data-toggle="collapse" data-target="#collapsibleSection3">
+    						<span class="section-toggler-icon">Eyebrow/Eyebrow Colour</span>
+ 						</button>
+						<div class="collapse section-collapse" id="collapsibleSection3">
+      						<ul class="navbar-nav">
+        						<li class="nav-item">
+        							<button><img onClick="setBrow('Brows1.png');" src="images/Brows1TH.png" alt="browSelection"><br></button>
+									<button><img onClick="setBrow('Brows1_A.png');" src="images/Brows1_ATH.png" alt="browSelection"><br></button>
+									<button><img onClick="setBrow('Brows1_B.png');" src="images/Brows1_BTH.png" alt="browSelection"><br></button>
+									<button><img onClick="setBrow('Brows1_C.png');" src="images/Brows1_CTH.png" alt="browSelection"><br></button>
+									<button><img onClick="setBrow('Brows2.png');" src="images/Brows2TH.png" alt="browSelection"><br></button>
+									<button><img onClick="setBrow('Brows2_A.png');" src="images/Brows2_ATH.png" alt="browSelection"><br></button>
+									<button><img onClick="setBrow('Brows2_B.png');" src="images/Brows2_BTH.png" alt="browSelection"><br></button>
+									<button><img onClick="setBrow('Brows2_C.png');" src="images/Brows2_CTH.png" alt="browSelection"><br></button>
+									<button><img onClick="setBrow('Brows3.png');" src="images/Brows3TH.png" alt="browSelection"><br></button>
+									<button><img onClick="setBrow('Brows3_A.png');" src="images/Brows3_ATH.png" alt="browSelection"><br></button>
+									<button><img onClick="setBrow('Brows3_B.png');" src="images/Brows3_BTH.png" alt="browSelection"><br></button>
+									<button><img onClick="setBrow('Brows3_C.png');" src="images/Brows3_CTH.png" alt="browSelection"><br></button>
+									<button><img onClick="setBrow('Brows4.png');" src="images/Brows4TH.png" alt="browSelection"><br></button>
+									<button><img onClick="setBrow('Brows4_A.png');" src="images/Brows4_ATH.png" alt="browSelection"><br></button>
+									<button><img onClick="setBrow('Brows4_B.png');" src="images/Brows4_BTH.png" alt="browSelection"><br></button>
+									<button><img onClick="setBrow('Brows4_C.png');" src="images/Brows4_CTH.png" alt="browSelection"><br></button>
+									<button><img onClick="setBrow('Brows5.png');" src="images/Brows5TH.png" alt="browSelection"><br></button>
+									<button><img onClick="setBrow('Brows5_A.png');" src="images/Brows5_ATH.png" alt="browSelection"><br></button>
+									<button><img onClick="setBrow('Brows5_B.png');" src="images/Brows5_BTH.png" alt="browSelection"><br></button>
+									<button><img onClick="setBrow('Brows5_C.png');" src="images/Brows5_CTH.png" alt="browSelection"><br></button>
+        						</li>
+     						</ul>
+    					</div>
+					</section>
+					
+					<section id="Nose">
+						<button class="section-toggler" type="button" data-toggle="collapse" data-target="#collapsibleSection4">
+    						<span class="section-toggler-icon">Nose</span>
+ 						</button>
+						<div class="collapse section-collapse" id="collapsibleSection4">
+      						<ul class="navbar-nav">
+        						<li class="nav-item">
+        							<button><img onClick="setNose('nose1.png');" src="images/nose1TH.png" alt="noseSelection"><br></button>
+									<button><img onClick="setNose('nose2.png');" src="images/nose2TH.png" alt="noseSelection"><br></button>
+									<button><img onClick="setNose('nose3.png');" src="images/nose3TH.png" alt="noseSelection"><br></button>
+									<button><img onClick="setNose('nose4.png');" src="images/nose4TH.png" alt="noseSelection"><br></button>
+									<button><img onClick="setNose('nose5.png');" src="images/nose5TH.png" alt="noseSelection"><br></button>
+        						</li>
+     						</ul>
+    					</div>
+					</section>
+					
+						<section id="Mouth">
+						<button class="section-toggler" type="button" data-toggle="collapse" data-target="#collapsibleSection5">
+    						<span class="section-toggler-icon">Mouth</span>
+ 						</button>
+						<div class="collapse section-collapse" id="collapsibleSection5">
+      						<ul class="navbar-nav">
+        						<li class="nav-item">
+        							<button><img onClick="setMouth('Mouth1.png');" src="images/Mouth1TH.png" alt="mouthSelection"><br></button>
+									<button><img onClick="setMouth('Mouth1_5.png');" src="images/Mouth1_5TH.png" alt="mouthSelection"><br></button>
+									<button><img onClick="setMouth('Mouth2.png');" src="images/Mouth2TH.png" alt="mouthSelection"><br></button>
+									<button><img onClick="setMouth('Mouth2_5.png');" src="images/Mouth2_5TH.png" alt="mouthSelection"><br></button>
+									<button><img onClick="setMouth('Mouth3.png');" src="images/Mouth3TH.png" alt="mouthSelection"><br></button>
+									<button><img onClick="setMouth('Mouth3_5.png');" src="images/Mouth3_5TH.png" alt="mouthSelection"><br></button>
+									<button><img onClick="setMouth('Mouth4.png');" src="images/Mouth4TH.png" alt="mouthSelection"><br></button>
+									<button><img onClick="setMouth('Mouth4_5.png');" src="images/Mouth4_5TH.png" alt="mouthSelection"><br></button>
+        						</li>
+     						</ul>
+    					</div>
+					</section>
+					
+						<section id="Hair">
+						<button class="section-toggler" type="button" data-toggle="collapse" data-target="#collapsibleSection6">
+    						<span class="section-toggler-icon">Hair</span>
+ 						</button>
+						<div class="collapse section-collapse" id="collapsibleSection6">
+      						<ul class="navbar-nav">
+        						<li class="nav-item">
+									<button><img onClick="setHair('Reset.png');" src="images/RestsTH.png" alt="hairSelection"></button>
+        							<button><img onClick="setHair('Hair3.png');" src="images/Hair3TH.png" alt="hairSelection"></button>
+									<button><img onClick="setHair('Hair3_A.png');" src="images/Hair3_ATH.png" alt="hairSelection"></button>
+									<button><img onClick="setHair('Hair3_B.png');" src="images/Hair3_BTH.png" alt="hairSelection"></button>
+									<button><img onClick="setHair('Hair3_C.png');" src="images/Hair3_CTH.png" alt="hairSelection"></button>
+									<button><img onClick="setHair('Hair4.png');" src="images/Hair4TH.png" alt="hairSelection"></button>
+									<button><img onClick="setHair('Hair4_A.png');" src="images/Hair4_ATH.png" alt="hairSelection"></button>
+									<button><img onClick="setHair('Hair4_B.png');" src="images/Hair4_BTH.png" alt="hairSelection"></button>
+									<button><img onClick="setHair('Hair4_C.png');" src="images/Hair4_CTH.png" alt="hairSelection"></button>
+									<button><img onClick="setHair('Hair5.png');" src="images/Hair5TH.png" alt="hairSelection"></button>
+									<button><img onClick="setHair('Hair5_A.png');" src="images/Hair5_ATH.png" alt="hairSelection"></button>
+									<button><img onClick="setHair('Hair5_B.png');" src="images/Hair5_BTH.png" alt="hairSelection"></button>
+									<button><img onClick="setHair('Hair5_C.png');" src="images/Hair5_CTH.png" alt="hairSelection"></button>
+									<button><img onClick="setHair('Hair6.png');" src="images/Hair6TH.png" alt="hairSelection"></button>
+									<button><img onClick="setHair('Hair6_A.png');" src="images/Hair6_ATH.png" alt="hairSelection"></button>
+									<button><img onClick="setHair('Hair6_B.png');" src="images/Hair6_BTH.png" alt="hairSelection"></button>
+									<button><img onClick="setHair('Hair6_C.png');" src="images/Hair6_CTH.png" alt="hairSelection"></button>
+        						</li>
+     						</ul>
+    					</div>
+					</section>
+					
+					<h3>Accessories</h3>
+					
+						<section id="Glasses">
+						<button class="section-toggler" type="button" data-toggle="collapse" data-target="#collapsibleSection7">
+    						<span class="section-toggler-icon">Glasses</span>
+ 						</button>
+						<div class="collapse section-collapse" id="collapsibleSection7">
+      						<ul class="navbar-nav">
+        						<li class="nav-item">       							
+									<button><img onClick="setGlass('Reset.png');" src="images/RestsTH.png" alt="glassSelection"></button>
+									<button><img onClick="setGlass('Glasses.png');" src="images/GlassesTH.png" alt="glassSelection"></button>
+									<button><img onClick="setGlass('Glasses2.png');" src="images/Glasses2TH.png" alt="glassSelection"></button>
+									<button><img onClick="setGlass('Glasses3.png');" src="images/Glasses3TH.png" alt="glassSelection"></button>
+        						</li>
+     						</ul>
+    					</div>
+					</section>
+					
+						<section id="Hats">
+						<button class="section-toggler" type="button" data-toggle="collapse" data-target="#collapsibleSection8">
+    						<span class="section-toggler-icon">Hats</span>
+ 						</button>
+						<div class="collapse section-collapse" id="collapsibleSection8">
+      						<ul class="navbar-nav">
+        						<li class="nav-item">       							
+									<button><img onClick="setCap('Reset.png');" src="images/RestsTH.png" alt="hatSelection"></button>
+									<button><img onClick="setCap('Cap.png');" src="images/CapTH.png" alt="hatSelection"></button>
+									<button><img onClick="setCap('Cap2.png');" src="images/Cap2TH.png" alt="hatSelection"></button>
+									<button><img onClick="setCap('Cap3.png');" src="images/Cap3TH.png" alt="hatSelection"></button>
+									<button><img onClick="setCap('Cap4.png');" src="images/Cap4TH.png" alt="hatSelection"></button>
+									<button><img onClick="setCap('Cap5.png');" src="images/Cap5TH.png" alt="hatSelection"></button>
+        						</li>
+     						</ul>
+    					</div>
+					</section>
+					
+	                </div>
+         
+				
+<hr>					
+		<div class="container">
+			<div class="row">
+                <div class="col-sm-6">
+                    <h3>Result</h3>
+                    <div id="builder">
+                        <!--order matters - first div is behind others-->
+                        <div id="head"></div>
+						<div id="nose"></div>
+                        <div id="eyes"></div>
+						<div id="brows"></div>
+						<div id="mouth"></div>
+						<div id="hair"></div>
+						<div id="glasses"></div>
+						<div id="hats"></div>
+
+					
+                    </div>
+                </div>
+			</div>
+		</div>		
+            </div>
+        </div>
+   </section>
+<script src="avatar_script.js"></script>
+	
+</body>
+</html>
